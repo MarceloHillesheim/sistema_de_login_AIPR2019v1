@@ -6,5 +6,5 @@ Configuramos o projeto, milestones e issues para o sistema de login.
 Criação d arquivo index.php e formulário de login.
 
 ## aula02 - 19/07/2019
-Configuramos os formulários de Cadastros e Recuperação de Senha, fazendo
+Configuramos os formulários de Cadastro de Novo Usuário e Recuperação de Senha, fazendo
 a mudança entre as telas.
