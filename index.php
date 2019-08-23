@@ -74,7 +74,7 @@
                     </div>
                     <div class="form-group">
                         <input type="email" name="emailUsuário" id="emailUsuário" class="form-control" placeholder="E-mail de Usuário" required>
-                    </div>
+                    </div> 
                     <div class="form-group">
                         <input type="password" name="senhaUsuário" id="senhaUsuário" class="form-control" placeholder="Digite sua senha" minlength="6" required>
                     </div>
