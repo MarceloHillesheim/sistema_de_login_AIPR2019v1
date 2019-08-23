@@ -4,7 +4,7 @@ Sistema de Login com registro de novo usuário e recuperação de senha
 ## aula04 - 15/08/2019
 Recepção de dados no Back-end
 
-## aula03 - 08/08/2019
+## aula03 - 08/08/2019 
 Sistema de validação dos fomulários
 
 ## aula02 - 19/07/2019 
