@@ -33,7 +33,7 @@
             <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixaLogin">
                 <h2 class="text-center mt-2">Entrada no sistema</h2>
                 <form id="formLogin" class="p-2">
-                    <div class="form-group">
+                    <div class="form-group"> 
                         <input type="text" name="nomeUsuario" id="nomeUsuario" class="form-control" placeholder="Nome do usuário" minlength="5" required autocomplete="off">
                     </div>
                     <div class="form-group">
