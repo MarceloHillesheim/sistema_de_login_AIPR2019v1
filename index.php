@@ -35,7 +35,7 @@
                 <form id="formLogin" class="p-2">
                     <div class="form-group"> 
                         <input type="text" name="nomeUsuario" id="nomeUsuario" class="form-control" placeholder="Nome do usuário" minlength="5" required autocomplete="off">
-                    </div>
+                    </div> 
                     <div class="form-group">
                         <input type="password" name="senhaUsuario" id="senhaUsuario" class="form-control" placeholder="Senha" required minlength="6">
                     </div>
