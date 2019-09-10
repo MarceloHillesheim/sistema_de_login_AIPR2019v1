@@ -44,17 +44,36 @@ if (isset($_SESSION['nomeUsuario']))
                 <form id="formLogin" class="p-2">
 
                     <div class="form-group">
-                        <input type="text" name="nomeUsuario" id="nomeUsuario" class="form-control" placeholder="Nome do usuário" minlength="5" required autocomplete="off">
+                        <input type="text" name="nomeUsuario" 
+                        id="nomeUsuario" class="form-control" 
+                        placeholder="Nome do usuário" minlength="5" 
+                        required value="<?php 
+                        if(isset($_COOKIE['nomeUsuario'])) 
+                            echo $_COOKIE['nomeUsuario'];
+                        ?>">
                     </div>
 
                     <div class="form-group">
-                        <input type="password" name="senhaUsuario" id="senhaUsuario" class="form-control" placeholder="Senha" required minlength="6">
-                    </div>
+                        <input type="password" name="senhaUsuario" 
+                        id="senhaUsuario" class="form-control" 
+                        placeholder="Senha" required minlenght="6" 
+                        value="<?php 
+                        if(isset($_COOKIE['senhaUsuario'])) 
+                            echo $_COOKIE['senhaUsuario'];
+                        ?>">
 
                     <div class="form-group mt-5">
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" name="lembrar" id="lembrar" class="custom-control-input">
-                            <label for="lembrar" class="custom-control-label">
+                            <input type="checkbox" 
+                            name="lembrar" id="lembrar" 
+                            class="custom-control-input"
+                            <?php
+                            if(isset($_COOKIE['nomeUsuario']))
+                            echo " checked"; ?>>
+
+                            
+                            <label for="lembrar"
+                            class="custom-control-label">
                                 Lembrar de mim.
                             </label>
                             <a href="#" id="btnEsqueci" class="float-right">
@@ -63,7 +82,7 @@ if (isset($_SESSION['nomeUsuario']))
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value=":: Entrar ::" name="btnEntrar" id="btnEntrar" class="btn btn-primary btn-block">
+                        <input type="submit" value="Entrar" name="btnEntrar" id="btnEntrar" class="btn btn-primary btn-block">
                     </div>
                     <div class="form-group">
                         <p class="center">Novo usuário?

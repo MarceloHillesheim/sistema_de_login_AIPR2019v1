@@ -51,10 +51,10 @@ require_once 'session.php';
     <main class="container mt-4">
 
         <div class="row">
-            <div class="col-4">
+            <div class="offset-lg-2 col-3">
                 <img src="<?= $urlAvatar ?>" alt="Foto de <?= $usuario ?>" width="200" height="200"/>
             </div>
-            <div class="col-8">
+            <div class="col-7">
                 <h1 class="text-light">Perfil de usuário</h1>
                 <h2 class="text-light">Nome: <?= $nome ?></h2>
                 <h2 class="text-light">E-mail: <?= $email ?></h2>
