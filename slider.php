@@ -76,7 +76,7 @@ require_once 'session.php';
                         <img src="imagens/arrascaeta.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Giorgian de Arrascaeta</h5>
-                            <p>Meio-campo do Flamengo no jogo contra o Ceará, esse <br> fez o gol de bicicleta</p>
+                            <p>Meio-campo do Flamengo no jogo contra o Ceará, esse <br> foi o seu gol de bicicleta</p>
                         </div>
                     </div>
                 </div>
